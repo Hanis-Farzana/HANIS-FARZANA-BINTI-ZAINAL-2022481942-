@@ -44,7 +44,7 @@ def collect_data():
             mydb.commit() 
  
             # To print back the output 
-            output_label.config(text=f"THANK YOU FOR YOUR PURCHASE!") 
+            output_label.config(text=f"THANK YOU FOR YOUR PURCHASE!\n See you on 25th of February, 8PM!") 
             output_label.grid(row=15, column=3)
         else: 
             # Display a warning if required fields are empty 
